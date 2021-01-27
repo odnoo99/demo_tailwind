@@ -3,46 +3,46 @@
 <html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./023_Form Styling Challenge- style hiigeegui_files/styles.css">
+    <link rel="stylesheet" href="css/styles.css">
     <title>Form Styling Challenge</title>
   </head>
-  <body>
-    <div>
-      <div>
-        <h1>Бүртгүүлэх</h1>
-        <p>Бүртгэл үнэ төлбөргүй</p>
+  <body class="bg-blue-800">
+    <div class="h-screen w-screen flex flex-col justify-center items-center">
+      <div class="bg-white w-2/4 text-gray-900 p-6">
+        <h1 class="uppercase text-2xl font-semibold text-center">Бүртгүүлэх</h1>
+        <p class="text-center mb-6">Бүртгэл үнэ төлбөргүй</p>
         <form>
-          <div>
-            <label for="first-name">Таны нэр</label>
-            <input type="text" name="firstName" id="first-name">
+          <div class="flex flex-col mb-4">
+            <label class="mb-1" for="first-name">Таны нэр</label>
+            <input class="border rounded p-1" type="text" name="firstName" id="first-name">
           </div>
-          <div>
-            <label for="last-name">Таны овог</label>
-            <input type="text" name="lastName" id="last-name">
+          <div class="flex flex-col mb-4">
+            <label class="mb-1" for="last-name">Таны овог</label>
+            <input class="border rounded p-1" type="text" name="lastName" id="last-name">
           </div>
-          <div>
-            <label for="email">Таны и-мэйл</label>
-            <input type="email" name="email" id="email">
+          <div class="flex flex-col mb-4">
+            <label class="mb-1" for="email">Таны и-мэйл</label>
+            <input class="border rounded p-1" type="email" name="email" id="email">
           </div>
-          <div>
-            <label for="password">Нууц үгээ бичнэ үү</label>
-            <input type="password" name="password" id="password">
+          <div class="flex flex-col mb-4">
+            <label class="mb-1" for="password">Нууц үгээ бичнэ үү</label>
+            <input class="border rounded p-1" type="password" name="password" id="password">
           </div>
-          <div>
-            <label for="password2">Нууц үгээ давтан бичнэ үү</label>
-            <input type="password" name="pasword2" id="password2">
+          <div class="flex flex-col mb-4">
+            <label class="mb-1" for="password2">Нууц үгээ давтан бичнэ үү</label>
+            <input class="border rounded p-1" type="password" name="pasword2" id="password2">
           </div>
-          <button type="submit">Бүртгүүлэх</button>
-          <p>
-            Бүртгүүлэх товчлуурыг дарснаар та манай <br>
-            <a href="https://video.1234.mn/upload/course/files/20200525_04023_form_challenge_style_hiigeegui.html#">Гэрээний нөхцлүүд</a>-ийг зөвшөөрсөн болно.
+          <button class="bg-blue-500 hover:bg-blue-600 w-full py-2 rounded-sm text-white shadow-md uppercase font-semibold mb-4" type="submit">Бүртгүүлэх</button>
+          <p class="text-xs text-center">
+            Бүртгүүлэх товчлуурыг дарснаар та манай <br/>
+            <a href="#" class="text-blue-600 font-semibold" >Гэрээний нөхцлүүд</a>-ийг зөвшөөрсөн болно.
           </p>
         </form>
       </div>
       <footer>
-        <p>
+        <p class="text-sm mt-2 text-white">
           Өмнө бүртгүүлсэн бол энд дарж
-          <a href="https://video.1234.mn/upload/course/files/20200525_04023_form_challenge_style_hiigeegui.html#">Нэвтрэх</a>
+          <a href="https://video.1234.mn/upload/course/files/20200525_04023_form_challenge_style_hiigeegui.html#" class="text-blue-300">Нэвтрэх</a>
         </p>
       </footer>
     </div>
