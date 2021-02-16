@@ -21,7 +21,14 @@ module.exports = {
     cursor: {
       grab: "grab",
     },
-    extend: {},
+    extend: {
+      colors: {
+        "primary-blue": "#1992d4",
+      },
+      translate: {
+        "3x": "300%",
+      }
+    },
   },
   variants: {
     backgroundColor: ["responsive", "hover", "focus", "active"],
